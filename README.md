@@ -9,8 +9,8 @@
 
 
 ### Tryhackme
-#### Jnr Pentester 
-##### Authentication Bypass
+#### Course 1. Jnr Pentester 
+##### Chapter 1. Authentication Bypass
 ```bash
 # Fuzzing a username
 # Which ever field needs to be fuzzed should have a value set as 'FUZZ' 
