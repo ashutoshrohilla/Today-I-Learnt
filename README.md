@@ -133,15 +133,15 @@ Apache2::Reload(3pm)     - Reload Perl Modules when Changed on Disk
 
 * Linux® must allocate an index node (inode) for every file and directory in the filesystem. Inodes do not store actual data. Instead, they store the metadata where you can find the storage blocks of each file’s data.
 * The following metadata exists in an inode:
-> File type
-> Permissions
-> Owner ID
-> Group ID
-> Size of file
-> Time last accessed
-> Time last modified
-> Soft/Hard Links
-> Access Control List (ACLs)
+** File type
+** Permissions
+** Owner ID
+** Group ID
+** Size of file
+** Time last accessed
+** Time last modified
+** Soft/Hard Links
+** Access Control List (ACLs)
 
 
 
