@@ -143,7 +143,22 @@ Apache2::Reload(3pm)     - Reload Perl Modules when Changed on Disk
 8. Soft/Hard Links
 9. Access Control List (ACLs)
 
+## TIL 21/06/2022
+### OAuth 2.0 Vulnerabilities
+Resources = [PortSwigger Blogs](https://portswigger.net/web-security/oauth#unverified-user-registration)
 
+
+### John jumbo installation
+```bash
+brew install john-jumbo
+```
+Get access to all the tools under the john suit
+```bash
+
+export export PATH="/opt/homebrew/Cellar/john-jumbo/1.9.0/share/john:$PATH"
+nano ~/.zprofile # Append the above command in the file
+source ~/.zprofile
+```
 
 
 
